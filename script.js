@@ -75,7 +75,7 @@ document.getElementById('noButton').addEventListener('click', function () {
 
 
   if (noButtonClickCount === 5) {
-    window.location.href = "https://youtu.be/SYbh6ob_R9M?t=99"; 
+    window.location.href = "https://www.youtube.com/watch?v=aw-uFeZ4mzI&rco=1"; 
   }
 });
 
