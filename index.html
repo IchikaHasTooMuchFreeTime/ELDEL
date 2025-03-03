@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arin, will you go out with me?</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="landing-screen d-flex flex-column justify-content-center align-items-center text-center">
+    <h1 class="display-4 fw-bold text-white">Arin, will you go out with me?</h1>
+    <p class="lead text-white">-Your fat boy 💖</p>
+    <div class="mt-4">
+      <button id="yesButton" class="btn btn-lg btn-light me-3">Yes!</button>
+      <button id="noButton" class="btn btn-lg btn-light">NO!</button>
+    </div>
+  </div>
+
+
+  <div id="confirmationMessage" class="confirmation-message d-none">
+    <h2 class="display-5 fw-bold text-white">Makasih udah ngasih aku kesempatan! 🎉</h2>
+    <p class="lead text-white">Kamu nggak bakal nyesel! 💕</p>
+  </div>
+
+
+  <iframe
+    id="audioPlayer"
+    style="display: none;"
+    src="https://youtu.be/QJO3ROT-A4E?t=34"
+    frameborder="0"
+    allow="autoplay"
+  ></iframe>
+
+
+  <canvas id="confettiCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></canvas>
+
+
+  <div class="coded-by text-center">
+    <p class="text-danger">Coder kidnapped by El ❤️</p>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
